@@ -1,0 +1,256 @@
+h1, h2, h3, ul{
+   margin: 0;
+}
+ul {
+   padding: 0;
+}
+body {
+   font-family: 'Gothic A1', sans-serif;
+   font-weight: 400;
+}
+#about {
+   flex: 3;
+}
+#loisirs {
+   padding-bottom: 5%;
+}
+aside p,
+aside h3,
+aside ul,
+aside a {
+   padding: 0 10%;
+}
+.justify {
+   text-align: justify;
+}
+.name h1 {
+   margin-right: 0.7%;
+   font-size: 2.4em;
+   text-transform: uppercase;
+}
+h1 strong {
+   font-weight:600;
+   color: #E91E63;
+}
+.name h1 {
+   font-weight: 300;
+}
+.titre {
+   font-family: 'Gothic A1', sans-serif;
+   font-weight: 300;
+}
+.photo {
+   text-align: center;
+}
+aside img {
+   border-radius: 110px;
+   border: 5px #880E4F solid;
+   margin: 30px 0 0;
+   width: 55%;
+}
+.left {
+   margin: 30px 0;
+   line-height: 50px;
+   width: 100%;
+   text-transform: uppercase;
+   text-align: center;
+   font-weight: 600;
+   color: #E91E63;
+   background-color: #404040;
+}
+aside p,
+#contact-mobile p,
+#about-mobile p,
+.contact a {
+   font-size: small;
+   font-weight: 400;
+   color: #404040;
+   margin: 0;
+}
+.contact {
+   margin: 15px 0;
+}
+.contact a {
+   text-decoration: none;
+}
+.loisir {
+   list-style: none;
+   display: flex;
+   justify-content: space-evenly;
+}
+.loisir li {
+   border: 1px #404040 solid;
+   border-radius: 40px;
+   padding: 3%;
+   width: 20%;
+   margin: auto;
+   text-align: center;
+}
+.loisir li i {
+   color: #404040;
+   font-size: 2.5em;
+   line-height: 50px;
+}
+header{
+   text-align: left;
+}
+header hr {
+   width: 9%;
+   border: 2px #E91E63 solid;
+   margin: 0;
+}
+.job,
+.col-2 {
+   color: #404040;
+}
+#main hr {
+   border: 2px #E91E63 solid;
+}
+#main i {
+   color: #E91E63;
+}
+.right i {
+   font-size: 1.2em;
+   padding: 2% 2% 2% 0;
+}
+#main .right {
+   font-weight: 600;
+   text-transform: uppercase;
+}
+.date {
+   display: flex;
+   align-items: flex-start;
+}
+.col ul {
+   font-size: small;
+   list-style: none;
+}
+.col .job,
+.friend .pro {
+   text-transform: uppercase;
+}
+.descr h3 {
+   margin: 2px 0;
+}
+.descr p,
+.friend p {
+   margin: 8px 0;
+}
+.email,
+.col-2 {
+   font-size: small;
+}
+@media (max-width: 700px) {
+   aside img {
+      border-radius: 100px;
+      width: 30%;
+      margin-bottom: 30px;
+   }
+   h2 {
+      font-size: 1.2em;
+   }
+   .name h1 {
+      font-size: 2em;
+   }
+   #contact,
+   #about,
+   #loisirs {
+      display: none;
+   }
+   #about-mobile {
+      background-color: #E91E63;
+      border-radius: 10px;
+      margin: 0 4% 4%;
+   }
+   #loisirs-mobile li {
+      width: 15%;
+      border-radius: 100px;
+      border-color: #E91E63;
+   }
+   #loisirs-mobile i {
+      color: #E91E63;
+      font-size: 2em;
+   }
+
+   .date p{
+      margin: 0 2%;
+   }
+   .col,
+   .descr,
+   .friend,
+   #contact-mobile,
+   #about-mobile,
+   #loisirs-mobile,
+   #contact-mobile .contact {
+      padding: 4%;
+   }
+   .col-2 .friend {
+      border-left: 2px #E91E63 solid;
+      margin: 4%;
+   }
+   #contact-mobile .contact {
+      border-left: 2px #E91E63 solid;
+   }
+}
+@media (min-width: 700px) {
+   .container {
+      display: flex;
+      justify-content: center;
+      width: 1180px;
+      margin: auto;
+   }
+   aside {
+      background-color: #E91E63; 
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+   }
+   header hr {
+      margin-bottom: 120px;
+   }
+   #contenu {
+      width: 70%;
+      padding: 5%;
+   }
+   #contact-mobile,
+   #about-mobile,
+   #loisirs-mobile {
+      display: none;
+   }
+   #main hr {
+      margin: 0 0 70px;
+   }
+   #main li {
+      display: flex;
+      align-items: stretch;
+      align-content: stretch;
+   }
+   .col .date {
+      width: 30%;
+   }
+   .date p {
+      margin: 0;
+      font-size: small;
+   }
+   .col i {
+      padding-right: 8%;
+   }
+   .descr {
+      width: 70%;
+   }
+   .col-2 {
+      display: flex;
+      justify-content: flex-start;
+   }
+   .friend {
+      width: 33.333%;
+   }
+   footer {
+      margin-top: 70px;
+   }
+}
+@media (min-width: 660px) {
+   #loisirs-mobile {
+      margin: 0 20%;
+   }
+}
