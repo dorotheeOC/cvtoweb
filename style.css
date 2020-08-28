@@ -67,6 +67,11 @@ aside p,
    color: #404040;
    margin: 0;
 }
+#about-mobile h2 {
+   text-transform: uppercase;
+   color: #404040;
+   font-weight: 400;
+}
 .contact {
    margin: 15px 0;
 }
@@ -103,17 +108,17 @@ header hr {
 .col-2 {
    color: #404040;
 }
-#main hr {
+.main hr {
    border: 2px #E91E63 solid;
 }
-#main i {
+.main i {
    color: #E91E63;
 }
 .right i {
    font-size: 1.2em;
    padding: 2% 2% 2% 0;
 }
-#main .right {
+.main .right {
    font-weight: 600;
    text-transform: uppercase;
 }
@@ -191,6 +196,9 @@ header hr {
    #contact-mobile .contact {
       border-left: 2px #E91E63 solid;
    }
+   #contact-mobile h3 {
+      color: #E91E63;
+   }
 }
 @media (min-width: 700px) {
    .container {
@@ -217,10 +225,10 @@ header hr {
    #loisirs-mobile {
       display: none;
    }
-   #main hr {
+   .main hr {
       margin: 0 0 70px;
    }
-   #main li {
+   .main li {
       display: flex;
       align-items: stretch;
       align-content: stretch;
