@@ -7,6 +7,7 @@ ul {
 body {
    font-family: 'Gothic A1', sans-serif;
    font-weight: 400;
+   margin:0;
 }
 #about {
    flex: 3;
@@ -204,12 +205,11 @@ header hr {
    .container {
       display: flex;
       justify-content: center;
-      width: 1180px;
       margin: auto;
    }
    aside {
       background-color: #E91E63; 
-      width: 30%;
+      width: 22%;
       display: flex;
       flex-direction: column;
    }
