@@ -1,5 +1,5 @@
 # Transformer une maquette en cv
-![alt text](http://url/to/img.png)
+![maquette](https://dorotheeoc.github.io/SOUTENANCE%20CV%20MAQUETTE.png)
 
 P1 du parcours developpeur web chez OpenClassrooms:
 
