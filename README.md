@@ -1,4 +1,5 @@
 # Transformer une maquette en cv
+![alt text](http://url/to/img.png)
 
 P1 du parcours developpeur web chez OpenClassrooms:
 
