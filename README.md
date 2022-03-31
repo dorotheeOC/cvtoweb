@@ -8,4 +8,4 @@ P1 du parcours developpeur web chez OpenClassrooms:
 * Intégrer du contenu conformément à une maquette
 * Implémenter une interface responsive
 
-[Lien github](https://dorotheeoc.github.io/)
+[Lien github](https://dorotheeoc.github.io/cvtoweb)
